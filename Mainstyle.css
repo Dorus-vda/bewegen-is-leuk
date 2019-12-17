@@ -1,0 +1,67 @@
+#content {
+  background-color: white;
+  border: 2px solid 000000;
+  border-radius: 1px;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 60%;
+}
+
+#background {
+    background-color: black;
+    background-size: cover;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+ul {
+  color: white;
+  background-color: khaki;
+  position: fixed;
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  position: fixed;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+li a:hover:not(.active) {
+  background-color: #333;
+}
+
+.active {
+  background-color: #333;
+  color: red;
+}
