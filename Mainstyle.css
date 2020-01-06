@@ -73,3 +73,7 @@ li a:hover:not(.active) {
 .logo {
   float: left;
 }
+
+.time {
+  align: right;
+}
