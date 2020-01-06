@@ -76,5 +76,5 @@ li a:hover:not(.active) {
 }
 
 .time {
-  align: right;
+  float: right;
 }
