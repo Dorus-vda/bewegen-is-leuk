@@ -21,6 +21,7 @@ body {
 }
 
 #background {
+    /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/65/Grasveld_Oosterpark.jpg);*/
     background-color: lightgrey;
     background-size: cover;
     width: 100%;
@@ -68,8 +69,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #333;
-  color: red;
+  background-color: darkblue;
 }
 
 .logo {
