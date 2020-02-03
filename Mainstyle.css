@@ -43,7 +43,7 @@ body {
   background-clip: text;
 }
 
-ul {
+.menu{
   color: white;
   background-color: black;
   position: fixed;
@@ -51,6 +51,18 @@ ul {
   margin: -8px;
   padding: 10px;
   position: absolute;
+}
+
+.LessenLijst{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin: -8px;
+  padding: 10px;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Maps {
