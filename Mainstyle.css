@@ -23,8 +23,7 @@ body {
 }
 
 #background {
-    /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/65/Grasveld_Oosterpark.jpg);*/
-    background-color: lightgrey;
+    background-image: url(gras.jpg);
     background-size: cover;
     width: 100%;
     height: 100%;
