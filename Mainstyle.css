@@ -116,3 +116,7 @@ li a:hover:not(.active) {
 ..title {
   color: white;
 }
+
+.onzichtbaar {
+  color: white;
+}
