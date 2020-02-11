@@ -15,6 +15,8 @@ body {
   margin-right: auto;
   max-width: 680;
   min-width: 20px;
+  padding-top: 8px;
+  padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
   width: 80%;
@@ -30,8 +32,6 @@ body {
     left: 0px;
     top: 0px;
 }
-
-
 
 .rainbow {
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
@@ -115,5 +115,9 @@ li a:hover:not(.active) {
 }
 
 ..title {
+  color: white;
+}
+
+.onzichtbaar {
   color: white;
 }
